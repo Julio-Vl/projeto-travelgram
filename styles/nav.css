@@ -1,10 +1,15 @@
 nav {
 display: flex;
+justify-content: space-between;
+align-items: center;
 
+line-height: 0;
+padding-block: 20px;
 }
 nav ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 nav ul li :last-child img{
 width: 40px;
@@ -13,3 +18,4 @@ object-fit: cover; /* caso eu queria colocar uma outra foto.
 isso poderia deixar a foto sem ser esticada e feia! */
 border-radius: 50%;/*caso você não tenha uma foto redonda você pode estar arrendondando a foto!*/
 }
+
